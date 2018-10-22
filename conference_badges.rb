@@ -5,6 +5,7 @@ end
 def batch_badge_creator(attendees)
   badges = []
   attendees.each { |attendee| badges << badge_maker(attendee)}
+  badges
 end
 
 def assign_rooms
